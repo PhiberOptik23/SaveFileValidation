@@ -1,0 +1,11 @@
+{
+  "save_version": "1.2",
+  "player": {
+    "name": "Hero",
+    "level": 15,
+    "hp": 100,
+    "inventory": ["sword", "shield", "potion"]
+  },
+  "location": "dungeon_level_3",
+  "playtime_seconds": 3600
+}

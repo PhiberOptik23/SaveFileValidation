@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["save_version", "player", "location"],
+  "properties": {
+    "save_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "player": {
+      "type": "object",
+      "required": ["name", "level", "hp"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "level": { "type": "integer", "minimum": 1, "maximum": 100 },
+        "hp": { "type": "integer", "minimum": 0 },
+        "inventory": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "location": { "type": "string", "minLength": 1 },
+    "playtime_seconds": { "type": "integer", "minimum": 0 }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "save_version": "abc",
+  "player": {
+    "name": "",
+    "level": 150,
+    "hp": -10
+  },
+  "playtime_seconds": -100
+}

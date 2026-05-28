@@ -1,0 +1,32 @@
+{
+  "file_name" : "test_save_corrupt_schema.json",
+  "status" : "FAIL",
+  "schema_valid" : false,
+  "integrity_valid" : true,
+  "errors" : [
+    {
+      "field_path" : "$.save_version",
+      "error_type" : "SCHEMA_VIOLATION",
+      "stage" : "TRANSFORM",
+      "severity" : "ERROR"
+    },
+    {
+      "field_path" : "$.player.level",
+      "error_type" : "SCHEMA_VIOLATION",
+      "stage" : "TRANSFORM",
+      "severity" : "ERROR"
+    },
+    {
+      "field_path" : "$.player.hp",
+      "error_type" : "SCHEMA_VIOLATION",
+      "stage" : "TRANSFORM",
+      "severity" : "ERROR"
+    },
+    {
+      "field_path" : "$.location",
+      "error_type" : "SCHEMA_VIOLATION",
+      "stage" : "TRANSFORM",
+      "severity" : "ERROR"
+    }
+  ]
+}

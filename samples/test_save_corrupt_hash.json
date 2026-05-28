@@ -1,0 +1,11 @@
+{
+  "save_version": "1.0",
+  "player": {
+    "name": "Warrior",
+    "level": 5,
+    "hp": 80,
+    "inventory": ["axe"]
+  },
+  "location": "forest_camp",
+  "playtime_seconds": 1200
+}
